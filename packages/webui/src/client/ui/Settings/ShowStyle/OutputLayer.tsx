@@ -14,7 +14,7 @@ import type {
 	ObjectOverrideSetOp,
 	SomeObjectOverrideOp,
 } from '@sofie-automation/corelib/dist/settings/objectWithOverrides'
-import { CheckboxControl } from '../../../lib/Components/Checkbox.js'
+import { CheckboxControl } from '@sofie-automation/ui-components'
 import {
 	useOverrideOpHelper,
 	getAllCurrentAndDeletedItemsFromOverrides,

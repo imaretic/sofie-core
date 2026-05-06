@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { EditAttribute } from '../../lib/EditAttribute.js'
 import { useTracker } from '../../lib/ReactMeteorData/react-meteor-data.js'
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { doModalDialog } from '../../lib/ModalDialog.js'
 import Moment from 'react-moment'
 import { Link } from 'react-router-dom'

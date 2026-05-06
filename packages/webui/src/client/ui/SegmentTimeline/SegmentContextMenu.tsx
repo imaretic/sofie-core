@@ -1,5 +1,5 @@
 import type * as React from 'react'
-import Escape from './../../lib/Escape.js'
+import { Escape } from '@sofie-automation/ui-components'
 import { useTranslation } from 'react-i18next'
 import { ContextMenu, MenuItem } from '@jstarpl/react-contextmenu'
 import type { DBPart } from '@sofie-automation/corelib/dist/dataModel/Part'

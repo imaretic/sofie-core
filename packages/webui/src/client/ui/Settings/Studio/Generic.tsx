@@ -22,7 +22,7 @@ import type { SomeObjectOverrideOp } from '@sofie-automation/corelib/dist/settin
 import { useOverrideOpHelperForSimpleObject } from '../util/OverrideOpHelper.js'
 import { IntInputControl } from '../../../lib/Components/IntInput.js'
 import { useMemo } from 'react'
-import { CheckboxControl } from '../../../lib/Components/Checkbox.js'
+import { CheckboxControl } from '@sofie-automation/ui-components'
 import { TextInputControl } from '../../../lib/Components/TextInput.js'
 import { DropdownInputControl, type DropdownInputOption } from '../../../lib/Components/DropdownInput.js'
 import { useTracker } from '../../../lib/ReactMeteorData/ReactMeteorData.js'

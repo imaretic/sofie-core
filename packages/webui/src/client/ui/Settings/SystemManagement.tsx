@@ -23,7 +23,7 @@ import { catchError } from '../../lib/lib.js'
 import { SystemManagementBlueprint } from './SystemManagement/Blueprint.js'
 import type { SomeObjectOverrideOp } from '@sofie-automation/corelib/dist/settings/objectWithOverrides'
 import { useOverrideOpHelperForSimpleObject } from './util/OverrideOpHelper.js'
-import { CheckboxControl } from '../../lib/Components/Checkbox.js'
+import { CheckboxControl } from '@sofie-automation/ui-components'
 import {
 	CombinedMultiLineTextInputControl,
 	MultiLineTextInputControl,

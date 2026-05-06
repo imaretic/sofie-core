@@ -3,7 +3,7 @@ import _ from 'underscore'
 import { type Translated, useSubscription, useTracker } from '../../lib/ReactMeteorData/react-meteor-data.js'
 import ClassNames from 'classnames'
 
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import type { ISourceLayer, IBlueprintActionTriggerMode } from '@sofie-automation/blueprints-integration'
 import { doUserAction, UserAction } from '../../lib/clientUserAction.js'
 import { NotificationCenter, Notification, NoticeLevel } from '../../lib/notifications/notifications.js'

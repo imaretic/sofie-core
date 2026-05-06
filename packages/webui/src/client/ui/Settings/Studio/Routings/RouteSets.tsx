@@ -39,7 +39,7 @@ import {
 	type WrappedOverridableItemNormal,
 } from '../../util/OverrideOpHelper.js'
 import { TextInputControl } from '../../../../lib/Components/TextInput.js'
-import { CheckboxControl } from '../../../../lib/Components/Checkbox.js'
+import { CheckboxControl } from '@sofie-automation/ui-components'
 import { OverrideOpHelperArrayTable } from '../../../../lib/forms/SchemaFormTable/ArrayTableOpHelper.js'
 import { hasOpWithPath } from '../../../../lib/Components/util.js'
 import { SchemaFormWithOverrides } from '../../../../lib/forms/SchemaFormWithOverrides.js'

@@ -5,7 +5,7 @@ import type {
 	WrappedOverridableItemNormal,
 	OverrideOpHelperForItemContents,
 } from '../../ui/Settings/util/OverrideOpHelper.js'
-import { CheckboxControl } from '../Components/Checkbox.js'
+import { CheckboxControl, ToggleSwitchControl } from '@sofie-automation/ui-components'
 import { type DropdownInputOption, DropdownInputControl } from '../Components/DropdownInput.js'
 import { FloatInputControl } from '../Components/FloatInput.js'
 import { IntInputControl } from '../Components/IntInput.js'
@@ -32,7 +32,6 @@ import { getSchemaUIField, SchemaFormUIField } from '@sofie-automation/blueprint
 import { SchemaFormSectionHeader } from './SchemaFormSectionHeader.js'
 import { Base64ImageInputControl } from '../Components/Base64ImageInput.js'
 import { MultiLineIntInputControl } from '../Components/MultiLineIntInput.js'
-import { ToggleSwitchControl } from '../Components/ToggleSwitch.js'
 import { BreadCrumbTextInput } from '../Components/BreadCrumbTextInput.js'
 
 interface SchemaFormWithOverridesProps extends SchemaFormCommonProps {

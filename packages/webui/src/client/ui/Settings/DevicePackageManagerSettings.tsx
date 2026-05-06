@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { useTracker } from '../../lib/ReactMeteorData/react-meteor-data.js'
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { doModalDialog } from '../../lib/ModalDialog.js'
 import { Meteor } from 'meteor/meteor'
 import { stringifyError } from '@sofie-automation/shared-lib/dist/lib/stringifyError'

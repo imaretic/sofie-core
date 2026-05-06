@@ -9,7 +9,7 @@ import classNames from 'classnames'
 import { RouteSetOverrideIcon } from '../../lib/ui/icons/switchboard.js'
 import Tooltip from 'rc-tooltip'
 import { TOOLTIP_DEFAULT_DELAY } from '../../lib/lib.js'
-import { ToggleSwitchControl } from '../../lib/Components/ToggleSwitch.js'
+import { ToggleSwitchControl } from '@sofie-automation/ui-components'
 import { PopUpPanel } from './PopUpPanel.js'
 
 interface IProps {

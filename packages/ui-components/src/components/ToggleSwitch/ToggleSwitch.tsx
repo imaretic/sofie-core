@@ -1,28 +1,25 @@
-import { type ChangeEvent, useCallback, useRef } from 'react'
-import Form from 'react-bootstrap/esm/Form'
+import * as React from 'react'
+import { useCallback, useRef } from 'react'
+import { Form } from 'react-bootstrap'
 
-interface IToggleSwitchControlProps {
+export const ToggleSwitchControl: React.FC<{
 	classNames?: string
 	disabled?: boolean
-
 	label?: string
-
 	value: boolean
-	handleUpdate: (value: boolean, e: ChangeEvent<HTMLInputElement>) => void
-}
-export function ToggleSwitchControl({
+	handleUpdate: (value: boolean, e: React.ChangeEvent<HTMLInputElement>) => void
+}> = ({
 	classNames,
 	value,
 	disabled,
 	label,
 	handleUpdate,
-}: Readonly<IToggleSwitchControlProps>): JSX.Element {
-	// Use a ref to avoid binding into the useCallback
+}) => {
 	const currentValue = useRef(value)
 	currentValue.current = value
 
 	const handleChange = useCallback(
-		(e: ChangeEvent<HTMLInputElement>) => {
+		(e: React.ChangeEvent<HTMLInputElement>) => {
 			if (disabled) return
 			handleUpdate(!currentValue.current, e)
 		},

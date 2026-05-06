@@ -16,7 +16,7 @@ import {
 import { TextInputControl } from '../../../../lib/Components/TextInput.js'
 import { DropdownInputControl, getDropdownInputOptions } from '../../../../lib/Components/DropdownInput.js'
 import type { OverrideOpHelper, WrappedOverridableItemNormal } from '../../util/OverrideOpHelper.js'
-import { CheckboxControl } from '../../../../lib/Components/Checkbox.js'
+import { CheckboxControl } from '@sofie-automation/ui-components'
 import { IntInputControl } from '../../../../lib/Components/IntInput'
 import Button from 'react-bootstrap/Button'
 

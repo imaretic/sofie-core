@@ -8,6 +8,8 @@ input {
 	user-select: auto;
 } */
 
+@use '../../../../ui-components/src/styles/base.scss';
+
 @use 'fonts';
 
 @use 'defaultColors';

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import type { Sorensen } from '@sofie-automation/sorensen'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Escape from './../../../Escape.js'
+import { Escape } from '@sofie-automation/ui-components'
 
 import { SorensenContext } from '../../../SorensenContext.js'
 import { Settings } from '../../../../lib/Settings.js'

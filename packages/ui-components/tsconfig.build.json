@@ -1,0 +1,17 @@
+{
+	"extends": "@sofie-automation/code-standard-preset/ts/tsconfig.lib",
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": ["node_modules/**"],
+	"compilerOptions": {
+		"target": "es2020",
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"jsx": "react-jsx",
+		"skipLibCheck": true,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"baseUrl": "./",
+		"types": ["node", "react", "react-dom"],
+		"resolveJsonModule": true,
+		"composite": true
+	}
+}

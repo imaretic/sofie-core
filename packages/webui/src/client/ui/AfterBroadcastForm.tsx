@@ -16,7 +16,7 @@ import {
 } from '../lib/Components/DropdownInput.js'
 import { MultiLineTextInputControl } from '../lib/Components/MultiLineTextInput.js'
 import { TextInputControl } from '../lib/Components/TextInput.js'
-import { Spinner } from '../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { NotificationCenter, Notification, NoticeLevel } from '../lib/notifications/notifications.js'
 import { useTracker } from '../lib/ReactMeteorData/ReactMeteorData.js'
 import { CoreSystem } from '../collections/index.js'

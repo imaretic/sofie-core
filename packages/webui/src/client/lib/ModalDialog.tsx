@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Escape from './Escape.js'
+import { Escape } from '@sofie-automation/ui-components'
 // @ts-expect-error type linking issue
 import FocusBounder from 'react-focus-bounder'
 import { useTranslation, withTranslation } from 'react-i18next'

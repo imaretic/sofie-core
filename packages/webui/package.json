@@ -41,6 +41,7 @@
 		"@sofie-automation/meteor-lib": "26.3.0-2",
 		"@sofie-automation/shared-lib": "26.3.0-2",
 		"@sofie-automation/sorensen": "^1.5.11",
+		"@sofie-automation/ui-components": "26.3.0-2",
 		"@testing-library/user-event": "^14.6.1",
 		"bootstrap": "^5.3.8",
 		"classnames": "^2.5.1",

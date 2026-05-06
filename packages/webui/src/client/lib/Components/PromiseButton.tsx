@@ -6,7 +6,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 import './PromiseButton.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Spinner } from '../Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { WarningIcon } from '../ui/icons/notifications.js'
 
 /** The PromiseButton renders a button which when clicked, disables the button while the onClick-promise is resolving. */

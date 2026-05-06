@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Spinner } from '../../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { unprotectString } from '@sofie-automation/corelib/dist/protectedString'
 import { useSubscription, useTracker } from '../../../lib/ReactMeteorData/ReactMeteorData.js'
 import { MeteorPubSub } from '@sofie-automation/meteor-lib/dist/api/pubsub'

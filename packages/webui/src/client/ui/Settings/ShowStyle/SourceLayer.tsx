@@ -23,7 +23,7 @@ import {
 	type WrappedOverridableItemNormal,
 } from '../util/OverrideOpHelper.js'
 import { TextInputControl } from '../../../lib/Components/TextInput.js'
-import { CheckboxControl } from '../../../lib/Components/Checkbox.js'
+import { CheckboxControl } from '@sofie-automation/ui-components'
 import { IntInputControl } from '../../../lib/Components/IntInput.js'
 import { DropdownInputControl, getDropdownInputOptions } from '../../../lib/Components/DropdownInput.js'
 import {

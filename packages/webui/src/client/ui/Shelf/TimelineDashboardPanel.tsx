@@ -2,7 +2,7 @@ import React from 'react'
 import _ from 'underscore'
 import type { Translated } from '../../lib/ReactMeteorData/react-meteor-data.js'
 import ClassNames from 'classnames'
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import {
 	type DashboardLayoutFilter,
 	PieceDisplayStyle,

@@ -1,7 +1,7 @@
 import { NavLink, Route, Switch, useRouteMatch } from 'react-router-dom'
 import { useSubscription, useTracker } from '../lib/ReactMeteorData/ReactMeteorData.js'
 
-import { Spinner } from '../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { RundownView } from './RundownView.js'
 import { MeteorPubSub } from '@sofie-automation/meteor-lib/dist/api/pubsub'
 import { UIStudios } from './Collections.js'

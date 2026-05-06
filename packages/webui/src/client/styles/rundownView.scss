@@ -601,62 +601,6 @@ svg.icon {
 			grid-column: start / timeline;
 			grid-row: zoom-area / end;
 		}
-
-		> .segment-timeline__timeline-zoom-buttons__button {
-			min-width: 22px;
-			min-height: 22px;
-			max-height: 22px;
-			border: none;
-			background: transparent;
-			overflow: visible;
-			font-size: 1em;
-			padding: 0;
-			transition: 0.2s opacity;
-
-			color: #dddddd;
-
-			> svg {
-				height: 22px;
-				width: 22px;
-				margin-top: -0.05em;
-
-				.btn-bkg {
-					transition: 0.3s fill;
-				}
-				.btn-icon {
-					transition: 0.3s fill;
-				}
-			}
-
-			&:disabled {
-				opacity: 0.5;
-			}
-
-			&:not(:disabled) {
-				&:hover {
-					> svg {
-						.btn-bkg {
-							fill: #8c8c8c;
-							transition: 0s fill;
-						}
-						.btn-icon {
-							fill: #ffffff;
-							transition: 0s fill;
-						}
-					}
-				}
-
-				&:active {
-					> svg {
-						.btn-bkg {
-							fill: $ui-button-primary;
-							border-color: $ui-button-primary;
-							transition: 0s fill;
-						}
-					}
-				}
-			}
-		}
 	}
 	.segment-timeline__next-preview {
 		position: relative;

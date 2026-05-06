@@ -1,4 +1,4 @@
-import Escape from './../lib/Escape.js'
+import { Escape } from '@sofie-automation/ui-components'
 
 interface IProps {
 	shown: boolean

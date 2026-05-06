@@ -1,5 +1,5 @@
 import { useTracker } from '../../lib/ReactMeteorData/react-meteor-data.js'
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import RundownLayoutEditor from './RundownLayoutEditor.js'
 import type { MappingsExt } from '@sofie-automation/corelib/dist/dataModel/Studio'
 import { BlueprintManifestType } from '@sofie-automation/blueprints-integration'

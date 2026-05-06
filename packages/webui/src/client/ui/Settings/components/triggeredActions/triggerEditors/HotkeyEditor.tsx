@@ -4,7 +4,7 @@ import { useContext, useState, useLayoutEffect, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { SorensenContext } from '../../../../../lib/SorensenContext.js'
 import { codesToKeyLabels } from '../../../../../lib/triggers/codesToKeyLabels.js'
-import { ToggleSwitchControl } from '../../../../../lib/Components/ToggleSwitch.js'
+import { ToggleSwitchControl } from '@sofie-automation/ui-components'
 import Form from 'react-bootstrap/esm/Form'
 
 interface IProps {

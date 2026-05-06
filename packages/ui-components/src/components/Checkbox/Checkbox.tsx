@@ -1,21 +1,20 @@
+import * as React from 'react'
 import { useCallback } from 'react'
-import Form from 'react-bootstrap/Form'
+import { Form } from 'react-bootstrap'
 
-interface ICheckboxControlProps {
+export const CheckboxControl: React.FC<{
 	classNames?: string
 	disabled?: boolean
 	title?: string
-
 	value: boolean
 	handleUpdate: (value: boolean) => void
-}
-export function CheckboxControl({
+}> = ({
 	classNames,
 	value,
 	disabled,
 	handleUpdate,
 	title,
-}: Readonly<ICheckboxControlProps>): JSX.Element {
+}) => {
 	const handleChange = useCallback(
 		(e: React.ChangeEvent<HTMLInputElement>) => {
 			handleUpdate(!!e.currentTarget.checked)

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useTracker } from '../../lib/ReactMeteorData/react-meteor-data.js'
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { PeripheralDeviceType } from '@sofie-automation/corelib/dist/dataModel/PeripheralDevice'
 import { StudioRoutings } from './Studio/Routings/index.js'
 import { StudioDevices } from './Studio/Devices/index.js'

@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useState } from 'react'
-import Escape from './../../../lib/Escape.js'
+import { Escape } from '@sofie-automation/ui-components'
 import { unprotectString } from '@sofie-automation/corelib/dist/protectedString'
 import { usePopper } from 'react-popper'
 import type { PartId } from '@sofie-automation/corelib/dist/dataModel/Ids'

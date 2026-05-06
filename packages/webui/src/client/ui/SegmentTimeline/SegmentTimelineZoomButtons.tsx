@@ -1,5 +1,9 @@
 import { useTranslation } from 'react-i18next'
-import { ZoomInIcon, ZoomOutIcon, ZoomShowAll } from '../../lib/ui/icons/segmentZoomIcon.js'
+import {
+	TimelineZoomInButton,
+	TimelineZoomOutButton,
+	TimelineZoomShowAllButton,
+} from '@sofie-automation/ui-components'
 import { catchError } from '../../lib/lib.js'
 
 interface IProps {
@@ -51,28 +55,13 @@ export function SegmentTimelineZoomButtons(props: Readonly<IProps>): JSX.Element
 
 	return (
 		<div className="segment-timeline__timeline-zoom-buttons" role="group">
-			<button
-				className="segment-timeline__timeline-zoom-buttons__button segment-timeline__timeline-zoom-buttons__button--out"
+			<TimelineZoomOutButton
 				onClick={zoomOut}
 				disabled={props.timeScale <= props.maxTimeScale && !props.isLiveSegment}
 				title={t('Zoom Out')}
-			>
-				<ZoomOutIcon />
-			</button>
-			<button
-				className="segment-timeline__timeline-zoom-buttons__button segment-timeline__timeline-zoom-buttons__button--all"
-				onClick={zoomNormalize}
-				title={t('Show All')}
-			>
-				<ZoomShowAll />
-			</button>
-			<button
-				className="segment-timeline__timeline-zoom-buttons__button segment-timeline__timeline-zoom-buttons__button--in"
-				onClick={zoomIn}
-				title={t('Zoom In')}
-			>
-				<ZoomInIcon />
-			</button>
+			/>
+			<TimelineZoomShowAllButton onClick={zoomNormalize} title={t('Show All')} />
+			<TimelineZoomInButton onClick={zoomIn} title={t('Zoom In')} />
 		</div>
 	)
 }

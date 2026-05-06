@@ -1,0 +1,40 @@
+.button {
+	min-width: 22px;
+	min-height: 22px;
+	max-height: 22px;
+	border: none;
+	background: transparent;
+	overflow: visible;
+	font-size: 1em;
+	padding: 0;
+	transition: 0.2s opacity;
+
+	> svg {
+		height: 22px;
+		width: 22px;
+		margin-top: -0.05em;
+	}
+
+	.background {
+		transition: 0.3s fill;
+	}
+
+	&:disabled {
+		opacity: 0.5;
+	}
+
+	&:not(:disabled) {
+		&:hover {
+			.background {
+				fill: #8c8c8c;
+			}
+		}
+
+		&:active {
+			.background {
+				fill: var(--ui-button-primary);
+				transition: 0s fill;
+			}
+		}
+	}
+}

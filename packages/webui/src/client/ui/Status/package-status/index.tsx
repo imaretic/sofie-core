@@ -9,7 +9,7 @@ import { doUserAction, UserAction } from '../../../lib/clientUserAction.js'
 import { Meteor } from 'meteor/meteor'
 import { PackageStatus } from './PackageStatus.js'
 import { PackageContainerStatus } from './PackageContainerStatus.js'
-import { Spinner } from '../../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { useTranslation } from 'react-i18next'
 import { UIStudios } from '../../Collections.js'
 import {

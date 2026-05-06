@@ -10,7 +10,7 @@ import type { DBPart } from '@sofie-automation/corelib/dist/dataModel/Part'
 import type { IAdLibListItem } from './AdLibListItem.js'
 import ClassNames from 'classnames'
 
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import type {
 	OutputLayers,
 	SourceLayers,

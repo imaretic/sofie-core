@@ -1,7 +1,7 @@
 import React, { useCallback, useContext, useEffect, useRef } from 'react'
 import { useHistory } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import Escape from '../../../lib/Escape'
+import { Escape } from '@sofie-automation/ui-components'
 import type { DBRundownPlaylist } from '@sofie-automation/corelib/dist/dataModel/RundownPlaylist/RundownPlaylist'
 import { type Rundown, getRundownNrcsName } from '@sofie-automation/corelib/dist/dataModel/Rundown'
 import { ContextMenu, MenuItem, ContextMenuTrigger, hideMenu, showMenu } from '@jstarpl/react-contextmenu'

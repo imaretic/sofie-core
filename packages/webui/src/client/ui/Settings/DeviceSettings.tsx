@@ -8,7 +8,7 @@ import {
 import { EditAttribute } from '../../lib/EditAttribute.js'
 import { doModalDialog } from '../../lib/ModalDialog.js'
 import { useTracker } from '../../lib/ReactMeteorData/react-meteor-data.js'
-import { Spinner } from '../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { PeripheralDevicesAPI } from '../../lib/clientAPI.js'
 
 import { NotificationCenter, Notification, NoticeLevel } from '../../lib/notifications/notifications.js'

@@ -1,0 +1,81 @@
+.wrapper {
+	margin: 1.5rem;
+	text-align: center;
+
+	.spinner {
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+
+		.spinnerSvg {
+			width: 100%;
+			height: 100%;
+			animation: spinnerRotate 1.4s linear infinite;
+		}
+
+		.spinCircle {
+			fill: none;
+			stroke-width: 4;
+			stroke-linecap: round;
+			stroke-dasharray: 95, 200;
+			stroke-dashoffset: 0;
+			animation: spinnerDash 1.5s ease-in-out infinite;
+		}
+
+		&.size_small {
+			width: 22px;
+			height: 22px;
+		}
+
+		&.size_medium {
+			width: 32px;
+			height: 32px;
+		}
+
+		&.size_large {
+			width: 48px;
+			height: 48px;
+		}
+
+		&.color_blue .spinCircle {
+			stroke: #2f86e6;
+		}
+
+		&.color_white .spinCircle {
+			stroke: #fff;
+		}
+
+		&.color_mint .spinCircle {
+			stroke: #58d6b3;
+		}
+
+		&.color_pink .spinCircle {
+			stroke: #f0608a;
+		}
+
+		&.color_purple .spinCircle {
+			stroke: #7f5af0;
+		}
+	}
+}
+
+@keyframes spinnerRotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spinnerDash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 90, 200;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 90, 200;
+		stroke-dashoffset: -124;
+	}
+}

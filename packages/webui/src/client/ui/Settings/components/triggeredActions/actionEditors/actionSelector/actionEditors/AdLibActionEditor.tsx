@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { PlayoutActions, type SomeAction } from '@sofie-automation/blueprints-integration'
 import { useTracker } from '../../../../../../../lib/ReactMeteorData/ReactMeteorData.js'
 import { AdLibActions, RundownBaselineAdLibActions } from '../../../../../../../collections/index.js'
-import { ToggleSwitchControl } from '../../../../../../../lib/Components/ToggleSwitch.js'
+import { ToggleSwitchControl } from '@sofie-automation/ui-components'
 import { TextInputControl, type TextInputSuggestion } from '../../../../../../../lib/Components/TextInput.js'
 
 export function AdLibActionEditor({

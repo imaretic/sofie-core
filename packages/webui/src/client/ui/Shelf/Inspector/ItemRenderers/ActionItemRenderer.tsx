@@ -6,7 +6,7 @@ import type { IBlueprintActionTriggerMode } from '@sofie-automation/blueprints-i
 import { translateWithTracker, type Translated } from '../../../../lib/ReactMeteorData/ReactMeteorData.js'
 import type { AdLibActionCommon } from '@sofie-automation/corelib/dist/dataModel/AdlibAction'
 import { createInMemorySyncMongoCollection } from '../../../../collections/lib.js'
-import { Spinner } from '../../../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import InspectorTitle from './InspectorTitle.js'
 import type { ProtectedString } from '@sofie-automation/shared-lib/dist/lib/protectedString'
 import { doUserAction, UserAction } from '../../../../lib/clientUserAction.js'

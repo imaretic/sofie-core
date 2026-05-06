@@ -43,6 +43,7 @@ export default defineConfig(({ command }) => ({
 
 			// Commonjs monorepo dependencies
 			'@sofie-automation/blueprints-integration',
+			'@sofie-automation/ui-components',
 		],
 	},
 	build: {

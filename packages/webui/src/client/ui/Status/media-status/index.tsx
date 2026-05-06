@@ -8,7 +8,7 @@ import {
 } from '../../MediaStatus/MediaStatus.js'
 import { useSubscription, useTracker } from '../../../lib/ReactMeteorData/ReactMeteorData.js'
 import { RundownPlaylists } from '../../../collections/index.js'
-import { Spinner } from '../../../lib/Spinner.js'
+import { Spinner } from '@sofie-automation/ui-components'
 import { MediaStatusListItem } from './MediaStatusListItem.js'
 import { unprotectString } from '@sofie-automation/corelib/dist/protectedString'
 import { useTranslation } from 'react-i18next'

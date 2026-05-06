@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useTracker } from '../../lib/ReactMeteorData/ReactMeteorData.js'
-import Escape from './../../lib/Escape.js'
+import { Escape } from '@sofie-automation/ui-components'
 import { ContextMenu, MenuItem } from '@jstarpl/react-contextmenu'
 import { ReactiveVar } from 'meteor/reactive-var'
 import type { Bucket } from '@sofie-automation/corelib/dist/dataModel/Bucket'
